@@ -1,0 +1,40 @@
+.top-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    background-color: #333;
+    color: #fff;
+    padding: 8px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .top-item {
+    opacity: 0.9;
+    white-space: nowrap; /* prevents weird wrapping */
+  }
+  
+  .top-divider {
+    opacity: 0.5;
+  }
+  
+  /* Mobile Responsive Styles */
+  @media (max-width: 768px) {
+    .top-navbar {
+      flex-direction: column;
+      gap: 6px;
+      padding: 12px 16px;
+    }
+  
+    .top-divider {
+      display: none;
+    }
+  
+    .top-item {
+      font-size: 13px;
+    }
+  }
+  

@@ -1,0 +1,66 @@
+.feature-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    gap: 40px;
+    flex-wrap: wrap; /* optional: allows responsiveness */
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .feature-left, .feature-center, .feature-right {
+    flex: 1;
+    min-width: 300px; /* optional for responsiveness */
+  }
+  
+  /* Make car image responsive */
+  .feature-center img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  
+  /* Style for feature items */
+  .feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+  
+  .feature-item img {
+    width: 32px;
+    height: 32px;
+  }
+  
+  /* Optional: style the buttons */
+  .feature-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .primary-btn, .secondary-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .primary-btn {
+    background-color: #1e88e5;
+    color: white;
+  }
+  
+  .secondary-btn {
+    background-color: transparent;
+    color: #1e88e5;
+    border: 2px solid #1e88e5;
+  }
+  

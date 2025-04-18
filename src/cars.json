@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "BMW M4",
+    "price": 75000,
+    "image": "/assets/car.png",
+    "description": "High-performance sports coupe with turbocharged engine."
+  },
+  {
+    "id": 2,
+    "name": "Audi RS5",
+    "price": 80000,
+    "image": "/assets/car-1.png",
+    "description": "Luxury performance car with sleek design and tech."
+  }
+]

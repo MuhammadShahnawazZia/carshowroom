@@ -1,0 +1,82 @@
+.blog-container {
+  text-align: center;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+.blog-title {
+  color: red;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Full-width horizontal scroll with snapping */
+.blog-list {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  gap: 20px;
+  padding: 60px;
+}
+
+.blog-list::-webkit-scrollbar {
+  height: 8px;
+}
+
+.blog-list::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+/* Each card takes full screen width */
+.blog-card {
+  flex: auto;
+  scroll-snap-align: start;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0;
+  overflow: hidden;
+  background-color: white;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Author info above photo */
+.blog-author-top {
+  font-size: 13px;
+  color: #555;
+  padding: 10px 20px 0;
+  font-style: italic;
+}
+
+/* Image full width */
+.blog-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Content styles */
+.blog-card h3 {
+  margin: 15px 20px 10px;
+  font-size: 24px;
+}
+
+.blog-card p {
+  margin: 0 20px 10px;
+  font-size: 16px;
+  color: #444;
+}
+
+.blog-card a {
+  display: block;
+  margin: 0 20px 20px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
