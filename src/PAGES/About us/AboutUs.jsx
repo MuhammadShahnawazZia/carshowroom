@@ -35,12 +35,12 @@ const AboutUs = () => {
         <div className="team-members">
           <div className="team-member">
             <img src="team-member-1.jpg" alt="Team Member 1" />
-            <h3>John Doe</h3>
+            <h3>CEO & Founder</h3>
             <p>CEO & Founder</p>
           </div>
           <div className="team-member">
             <img src="team-member-2.jpg" alt="Team Member 2" />
-            <h3>Jane Smith</h3>
+            <h3>Lead Developer</h3>
             <p>Lead Developer</p>
           </div>
           {/* Add more team members as needed */}
